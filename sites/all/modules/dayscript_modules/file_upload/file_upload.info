@@ -1,0 +1,8 @@
+name = Archivos webform
+description = Valida extenciones de archivos que se suben por medio de formularios web
+core = 7.x
+package = Dayscript
+dependencies[] = webform
+dependencies[] = file
+#files[] = tests/example.test
+#configure = admin/config/content/example
