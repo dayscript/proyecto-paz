@@ -104,22 +104,34 @@ a{color:#60CFE2;}
 body.section-colecciones-digitales H1 a{				color:#FFF;}
 .section-ciudadanias-posconflicto h2, .section-ciudadanias-posconflicto a{color:#EF5363;}
 
+
+/*============================*/
+/*----------HEADER------------*/
+/*============================*/
+
+.site-name-proyecto-paz .region-inner.clearfix {
+    margin: 0 auto;
+    width: 940px;
+}
+.block_logo{
+	float: left;
+    width: 11%;
+}
+
+.description_header{
+	float: left;
+    width: 82%;
+}
+
+.block_logo_banco{
+	float: right;
+    width: 7%;
+}
+
 /*============================*/
 /*--------- MENU -------------*/
 /*============================*/
 
-.block_logo{
-	position: absolute;
-	z-index: 999;
-	background: url("../images/sombra_logo.png") 3px 50px no-repeat;
-	width: 100px;
-}
-.block_logo_banco{
-	position: absolute;
-	right: 0;
-	top: 60px;
-	z-index:9;
-}
 #nav-wrapper{
 	height:50px;
 	margin-bottom:52px;
@@ -137,14 +149,9 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 	position:relative;
 }
 ul.nice-menu{
-	line-height:24px;
-	margin-left:200px;
 	font-family: 'DosisBold';;
 	font-size:13px;
-	letter-spacing:0.03em;
 	margin-top:13px;
-	text-transform:uppercase;
-	float:right;
 }
 ul.nice-menu-down li,
 ul.nice-menu li{
@@ -1681,6 +1688,7 @@ a.link_web:hover{
 /*============================*/
 
 /*--- invisibles ---*/
+
 .block_menu_proyect .views-row.views-row-4{
 
 }
@@ -1747,6 +1755,8 @@ a.link_web:hover{
 	margin: 0 auto;
 	margin-bottom: 8px;
 }
+
+/*
 .block_menu_proyect .views-field a.blue:before{ 	background: url('../images/icon_p_paz.png') no-repeat center;}
 .block_menu_proyect .views-field a.green:before{ 	background: url('../images/icon_p_hechos.png') no-repeat center;}
 .block_menu_proyect .views-field a.yellow:before{	background: url('../images/icon_p_frente.png') no-repeat center;}
@@ -1759,6 +1769,7 @@ a.link_web:hover{
 .block_menu_proyect .views-field a.orange:hover:before{ background: url('../images/icon_p_8_hover.png') no-repeat center;}
 .block_menu_proyect .views-field a.red:hover:before{	background: url('../images/icon_p_entre_hover.png') no-repeat center;}
 
+
 /*============================*/
 /*------- BLOCK BANNER -------*/
 /*============================*/
@@ -1769,7 +1780,7 @@ body.front #secondary-content-wrapper {
 	position: absolute;
 	width: 100%;
 	z-index:3;
-	top: 115px;
+	top: 260px;
 }
 body.front #content-wrapper{
 	height:0;
@@ -1786,8 +1797,7 @@ body.front #messages-help-wrapper{
 	font-family: 'DosisSemiBold';
 	color: #FFF;
 	font-size: 20px;
-	width: 565px;
-	min-height: 180px;
+	width: 100%;
 	margin: 0 auto;
 	text-shadow: 1px 1px 3px #000;
 	text-align: center;
