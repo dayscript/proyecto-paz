@@ -74,8 +74,8 @@ img.vegas-background{
 	display:none !important;
 }
 
-body.section-hechos-de-paz{		background:url('../images/background_3.jpg') repeat;}
-body.section-frente-al-otro{	background:url('../images/background_4.jpg') repeat;}
+body.section-hechos-de-paz, .section-hagamos-las-paces-con-la-naturaleza{		background:url('../images/background_3.jpg') repeat;}
+body.section-frente-al-otro, .section-las-reglas-del-juego{	background:url('../images/background_4.jpg') repeat;}
 body.section-8-palabras, 
 body.section-colecciones-digitales,
 body.section-red-de-mediadores { background:url('../images/background_5.jpg') repeat;}
@@ -92,10 +92,10 @@ body.section-mapa-talleres{	background:url('../images/fondo_map.jpg') repeat;}
 	color:#fff;
 	margin:0;
 }
-.section-los-ninos-piensan-la-paz h1{ background:#60CFE2;}
-.section-hechos-de-paz h1{			  background: #8BC53F;}
-.section-frente-al-otro h1{			  background: #FCB730;}
-.section-8-palabras h1, body.section-colecciones-digitales h1{				  background:#FF7E41; color:#FFF;}
+.section-los-ninos-piensan-la-paz h1, .section-hagamos-las-paces h1{ background:#60CFE2;}
+.section-hechos-de-paz h1, .section-hagamos-las-paces-con-la-naturaleza h1{background: #8BC53F;}
+.section-frente-al-otro h1, .section-las-reglas-del-juego h1{background: #FCB730;}
+.section-8-palabras h1, body.section-colecciones-digitales h1{background:#FF7E41; color:#FFF;}
 .section-ciudadanias-posconflicto h1{        background:#EF5363;}
 
 .section-actividades .region-region-titulos h1{ color:#666666;}
@@ -1859,6 +1859,7 @@ body.front #messages-help-wrapper{
 	color: #FFF;
 	font-size: 20px;
 	width: 100%;
+	height: 80px;
 	text-shadow: 1px 1px 3px #000;
 	text-align: center;
 	margin-bottom:50px;
@@ -2544,6 +2545,8 @@ background-color: #f5f5f5;
   color: #6C6C6C;
   font-weight: bold;
 }
+
+/*
 .view-blog .view-content {
 	float: left;
 	width: 700px;
@@ -2656,4 +2659,34 @@ border: 1px solid #666666;z
 	margin-top: -25px;
 	padding-left: 40px;
 	padding-bottom: 40px;
+}
+
+/*============================*/
+/*--------LANDING PAGES-------*/
+/*============================*/
+
+
+
+.site-name-proyecto-paz #block-views-herramientas-block-1 h2.block-title{
+    color: #e93578;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-field.views-field-field-image{
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+.site-name-proyecto-paz .views-row.views-row-2.views-row-even,
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-row.views-row-3.views-row-odd,
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-row.views-row-4.views-row-even,
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-row.views-row-5.views-row-odd.views-row-last{
+	clear: both;
+}
+
+.site-name-proyecto-paz #block-views-herramientas-block-1 .field-content > a{
+	font-size: 30px;
 }
