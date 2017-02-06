@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * Process theme data.
@@ -55,8 +54,17 @@ function adaptivetheme_subtheme_process_html(&$vars) {
  */
 
 function paz_theme_preprocess_page(&$vars) {
-	drupal_add_library('system', 'ui.accordion');
+	drupal_add_library('system', 'ui.accordion');	
+	if(isset($vars['node'])){
+		$node = $vars['node'];
+		$field = field_get_items('node', $node, 'field_color_proyecto');
+		if($field){
+
+			$vars['classes_array'][] = $field[0]['value'];
+		}
+	}
 }
+
 function paz_theme_process_page(&$vars) {
 }
 // */
