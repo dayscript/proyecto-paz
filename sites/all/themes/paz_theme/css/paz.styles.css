@@ -1,9 +1,3 @@
-body{
-	color:#000;	
-	background:url('../images/background_1.jpg') repeat;
-}
-
-
 #page{
 	font-family: 'DosisRegular';
 	letter-spacing: 0.04em;
@@ -74,11 +68,29 @@ img.vegas-background{
 	display:none !important;
 }
 
-body.section-hechos-de-paz, .section-hagamos-las-paces-con-la-naturaleza{		background:url('../images/background_3.jpg') repeat;}
-body.section-frente-al-otro, .section-las-reglas-del-juego{	background:url('../images/background_4.jpg') repeat;}
+.site-name-proyecto-paz .page.blue{
+	background:url('../images/blue.jpg') repeat;
+}
+.site-name-proyecto-paz .page.green{
+	background:url('../images/green.jpg') repeat;
+}
+.site-name-proyecto-paz .page.yellow{
+	background:url('../images/yellow.jpg') repeat;
+}
+.site-name-proyecto-paz .page.red{
+	background:url('../images/red.jpg') repeat;
+}
+.site-name-proyecto-paz .page.orange{
+	background:url('../images/orange.jpg') repeat;
+}
+.site-name-proyecto-paz .page.default{
+	background:url('../images/background_1.jpg') repeat;
+}
+
+body.section-blog{background:url('../images/red.jpg') repeat;}
+
 body.section-8-palabras, 
 body.section-colecciones-digitales,
-body.section-red-de-mediadores { background:url('../images/background_5.jpg') repeat;}
 body.section-ciudadanias-posconflicto{ background:url('../images/background_6.jpg') repeat;}
 body.section-mapa-talleres{	background:url('../images/fondo_map.jpg') repeat;}
 
@@ -115,8 +127,7 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 
 
 .site-name-proyecto-paz #header-wrapper{
-	color:#000;	
-	background:url('../images/background_1.jpg') repeat;
+	background-color: #fff;
 }
 
 .site-name-proyecto-paz #header-wrapper .block-content.content > h1{
@@ -169,7 +180,7 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 	position:relative;
 }
 ul.nice-menu{
-	font-family: 'DosisBold';;
+	font-family: "DosisSemiBold";
 	font-size:13px;
 	margin-top:13px;
 }
