@@ -74,7 +74,9 @@ img.vegas-background{
 
 body.section-hechos-de-paz{		background:url('../images/background_3.jpg') repeat;}
 body.section-frente-al-otro{	background:url('../images/background_4.jpg') repeat;}
-body.section-8-palabras, body.section-colecciones-digitales{		background:url('../images/background_5.jpg') repeat;}
+body.section-8-palabras, 
+body.section-colecciones-digitales,
+body.section-red-de-mediadores { background:url('../images/background_5.jpg') repeat;}
 body.section-ciudadanias-posconflicto{ background:url('../images/background_6.jpg') repeat;}
 body.section-mapa-talleres{	background:url('../images/fondo_map.jpg') repeat;}
 
@@ -2396,4 +2398,162 @@ background-color: #f5f5f5;
 .tabla tr.info, .tabla tr.even, .tabla tr:nth-child(2n+2) {
   border-bottom: 0;
   background-color: transparent !important;
+}
+
+/*============================*/
+/*----------- BLOG -----------*/
+/*============================*/
+
+/*Landing page*/
+.action-links a {
+	color: #000;
+}
+.view-blog #views-exposed-form-blog-page {
+	float: right;
+	width: 200px;
+	border: 1px solid #ccc;
+	background-color: #6C6C6C;
+}
+.view-blog #views-exposed-form-blog-page label {
+	font-size: 19px;
+	color: #60CFE2;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	text-align: center;
+	width: 200px;
+}
+.view-blog #views-exposed-form-blog-page .form-type-bef-link {
+	height: 40px;
+	line-height: 3;
+}
+.view-blog #views-exposed-form-blog-page .selected {
+	background-color: #ffffff;
+  color: #6C6C6C;
+}
+.view-blog #views-exposed-form-blog-page .selected a {
+  color: #6C6C6C;
+  font-weight: bold;
+}
+.view-blog #views-exposed-form-blog-page .form-type-bef-link a {
+	transition: 0.4s;
+	display: block;
+	padding-left: 15px;
+}
+.view-blog #views-exposed-form-blog-page .form-type-bef-link a:hover {
+	background-color: #ffffff;
+  width: 185px;
+  text-decoration: none;
+  color: #6C6C6C;
+  font-weight: bold;
+}
+.view-blog .view-content {
+	float: left;
+	width: 700px;
+	margin-top: -20px;
+}
+.view-blog .view-content tr {
+	background-color: #f5f5f5;
+	margin-top: 10px;
+	padding-top: 3px;
+	display: block;
+}
+.view-blog .view-content .row-last {
+	margin-bottom: 20px;
+}
+.view-blog .views-field-title {
+	float: left;
+	margin-top: 10px;
+}
+.view-blog .views-field-body {
+	clear: left;
+}
+.view-blog .views-field-body span {
+}
+
+/*internas*/
+#breadcrumb {
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+#breadcrumb a {
+	color: #333333;
+	text-decoration: none;
+	font-family: 'DosisBold';
+	letter-spacing: 2px;
+	font-size: 17px;
+}
+#breadcrumb a::before {
+	content: "<< Volver a ";
+}
+#breadcrumb .crumb-last {
+	display: none;
+}
+.field-name-field-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*red mediadores*/
+.section-red-de-mediadores h2 {
+	color: #FF7E41;
+  font-size: 19px;
+}
+#block-webform-client-block-539 {
+	background-color: #fff;
+	margin-top: -20px;
+	padding-bottom: 50px;
+}
+#block-webform-client-block-539 form {
+	width: 600px;
+	margin: 0 auto;
+	background: #F2F2F2;
+	padding: 20px;
+}
+#block-webform-client-block-539 form .form-item {
+	margin-top: 20px;
+}
+#block-webform-client-block-539 form input {
+	background-color: #fff;
+	margin-left: 10px;
+}
+#block-webform-client-block-539 #webform-component-city input {
+	margin-left: 5px;
+}
+#block-webform-client-block-539 #webform-component-mail input {
+	margin-left: 5px;
+}
+#block-webform-client-block-539 form textarea {
+	background-color: #fff;
+}
+
+#block-webform-client-block-539 #edit-submitted-departamento {
+	background: #fff;
+	margin-left: 32px;
+}
+#block-webform-client-block-539 #webform-component-contact label {
+	float: left;
+}
+#block-webform-client-block-539 #webform-component-contact input {
+	margin-left: 10px;
+}
+#block-webform-client-block-539 #webform-component-descripcion textarea {
+	width: 435px;
+	margin-left: 150px;
+	height: 100px;
+}
+#block-webform-client-block-539 #webform-component-boolean .option::after {
+border: 1px solid #666666;z
+}
+#block-webform-client-block-539 #edit-submit {
+	background: #666666;
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+}
+#block-block-29 {
+	background-color: #fff;
+	margin-top: -25px;
+	padding-left: 40px;
+	padding-bottom: 40px;
 }
