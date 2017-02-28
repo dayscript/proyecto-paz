@@ -1862,7 +1862,7 @@ body.front #messages-help-wrapper{
 	height: 80px;
 	text-shadow: 1px 1px 3px #000;
 	text-align: center;
-	margin-bottom:50px;
+	margin-bottom:30px;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 98%, rgba(0,0,0,0.3) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(98%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.3)));
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 98%,rgba(0,0,0,0.3) 100%);
@@ -1929,6 +1929,7 @@ body.front #messages-help-wrapper{
 	z-index: 999;
 	height: 5px;
 	padding: 15px 0 !important;
+	display: none;
 }
 .block_banner .flex-control-paging li a {
 	width: 6px;
@@ -2484,23 +2485,41 @@ background-color: #f5f5f5;
 	margin-top: inherit;
 }
 .site-name-proyecto-paz .jcarousel-view--blog--block-1 .jcarousel-item{
-	width: 294px !important;
+	width: 311px !important;
 	height: 200px;
 	margin: 0px;
 }
 
 .site-name-proyecto-paz .jcarousel-skin-default .jcarousel-clip-horizontal{
-	width: 94%;
+	width: 100%;
 	margin: auto;
 }
 
 .jcarousel-skin-default .jcarousel-prev-horizontal{
-	left: -10px;
-	top:75;
+	left: -15px;
+	top: 80px;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal{
-	right: -10px;
-	top: 75px;
+	right: -15px;
+	top: 80px;
+}
+
+.views-field.views-field-field-img-slide-home{
+	float: left;
+}
+
+.site-name-proyecto-paz .views-field.views-field-title,
+.site-name-proyecto-paz .views-field.views-field-body{
+	display: inline-block;
+	width: 54%;
+	margin: 0 10px 0 10px;
+
+}
+
+.jcarousel-clip-horizontal h2.field-content{
+	font-size: 14px;
+	margin-bottom: 5px;
+
 }
 
 /*============================*/
@@ -2515,7 +2534,8 @@ background-color: #f5f5f5;
 	float: right;
 	width: 200px;
 	border: 1px solid #ccc;
-	background-color: #6C6C6C;
+	background-color: #fff;
+	margin: 0 20px;
 }
 .view-blog #views-exposed-form-blog-page label {
 	font-size: 19px;
@@ -2549,6 +2569,21 @@ background-color: #f5f5f5;
   color: #6C6C6C;
   font-weight: bold;
 }
+
+.section-blog #block-system-main table.views-view-grid.cols-1{
+	margin: auto;
+    width: 70%;
+}
+
+.section-blog #block-system-main tbody > tr{
+	background: #fff;
+}
+
+
+.section-blog #block-system-main table h2.field-content{
+	text-align: left;
+}
+
 
 /*
 .view-blog .view-content {
