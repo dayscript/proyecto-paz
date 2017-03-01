@@ -2508,8 +2508,8 @@ background-color: #f5f5f5;
 	float: left;
 }
 
-.site-name-proyecto-paz .views-field.views-field-title,
-.site-name-proyecto-paz .views-field.views-field-body{
+.site-name-proyecto-paz #block-views-blog-block-1 .views-field.views-field-title,
+.site-name-proyecto-paz #block-views-blog-block-1 .views-field.views-field-body{
 	display: inline-block;
 	width: 54%;
 	margin: 0 10px 0 10px;
