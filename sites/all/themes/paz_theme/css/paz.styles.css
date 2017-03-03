@@ -11,6 +11,9 @@
 .section-los-ninos-piensan-la-paz .region-buttom-content{
 	margin-top:0;
 }
+#block-menu-menu-men-footer {
+	margin-top: 100px;
+}
 #content-wrapper {
 	width: 940px;
 	margin: 0 auto;
@@ -44,10 +47,11 @@
 }
 h2{
 	font-size:19px;
-	color:#666666;
+	/*color:#666666;*/
 	text-align:center;
 	text-transform:uppercase;
 	margin-top:0;
+	color: #e93578;
 }
 h3{
 	font-size:16px;
@@ -56,7 +60,9 @@ h3{
 	text-transform:uppercase;
 	margin:10px 0;
 }
-
+p {
+	line-height: 1.5;
+}
 	
 /*=====================================================*/
 /*----------- FONDOS / COLORES SECCIONES -------------*/
@@ -164,7 +170,7 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 /*============================*/
 
 #nav-wrapper{
-	height:50px;
+	height:60px;
 	margin-bottom:52px;
 	-webkit-box-shadow: 0px 2px 5px 0px rgba(168, 168, 168, 0.5);
 	-moz-box-shadow:    0px 2px 5px 0px rgba(168, 168, 168, 0.5);
@@ -172,6 +178,7 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 	background:#fff;
 	position:relative;
 	z-index:9;
+	background-color: #e93578;
 }
 #menu-bar{
 	width: 940px;
@@ -199,11 +206,13 @@ ul.nice-menu-down .menuparent a{
 	text-decoration:none;
 	padding:0;
 	margin: 0 10px;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
 }
 .nav li a:hover, 
 .nav ul.menu li a:hover{
-	border-top:2px solid #666666;
-	color:#666666;
+	border-top:2px solid #474747;
+	color:#fff;
 }
 .nav li a:active, 
 .nav ul.menu li a:active{
@@ -243,7 +252,13 @@ ul.nice-menu ul li:hover{
 ul.nice-menu ul li:hover a{
 	border:none !important;
 }
-
+ul.nice-menu .menu-item-1083 {
+	width: 145px;
+}
+ul.nice-menu .menu-item-1083 a {
+	white-space: inherit;
+	word-wrap: break-word;  
+}
 /*============================*/
 /*--------- CONTENIDO --------*/
 /*============================*/
@@ -253,7 +268,7 @@ ul.nice-menu ul li:hover a{
 	margin-right:20px;
 }
 .ds-2col-stacked-fluid > .group-right{
-	width: 540px;
+	width: 535px;
 	background: #fff;
 	padding: 40px;
 	min-height:400px;
@@ -272,7 +287,7 @@ ul.nice-menu ul li:hover a{
 .group-left .field .field-slideshow,
 .group-left .field .field-slideshow a {
 	padding: 0 !important;
-	height: 170px ;
+	height: 170px !important;
 	display:block;
 }
 /*-------- VIDEO -------*/
@@ -1720,18 +1735,12 @@ a.link_web:hover{
 
 /*--- invisibles ---*/
 
-.block_menu_proyect .views-row.views-row-4{
-
-}
-
 #block-views-menu-proyectos-block{
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
-
 .block_menu_proyect{
 	text-align:center;
 }
-
 .block_menu_proyect2 .views-field  a{
 	float: left;
 	width: 400px;
@@ -1859,7 +1868,7 @@ body.front #content-wrapper{
 }
 body.front .region-buttom-content,
 body.front #nav-wrapper{
-	margin:0;
+	margin:0px;
 }
 body.front #messages-help-wrapper{
 	position:absolute;
@@ -1873,7 +1882,8 @@ body.front #messages-help-wrapper{
 	height: 80px;
 	text-shadow: 1px 1px 3px #000;
 	text-align: center;
-	margin-bottom:30px;
+	margin-bottom:40px;
+	margin-top: 40px;
 	background: -moz-linear-gradient(top, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 98%, rgba(0,0,0,0.3) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(98%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0.3)));
 	background: -webkit-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 98%,rgba(0,0,0,0.3) 100%);
@@ -1881,6 +1891,9 @@ body.front #messages-help-wrapper{
 	background: -ms-linear-gradient(top, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 98%,rgba(0,0,0,0.3) 100%);
 	background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 98%,rgba(0,0,0,0.3) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=0 );
+}
+#block-views-menu-proyectos-block-1 {
+
 }
 .block_description p{
 	margin:0;
@@ -2487,8 +2500,8 @@ background-color: #f5f5f5;
 .site-name-proyecto-paz .jcarousel-skin-default .jcarousel-container-horizontal{
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 202px;
+	width: 942px;
+	margin-top: 50px;
 }
 .site-name-proyecto-paz #block-views-blog-block-1 .view-content {
 	float: none;
@@ -2496,41 +2509,61 @@ background-color: #f5f5f5;
 	margin-top: inherit;
 }
 .site-name-proyecto-paz .jcarousel-view--blog--block-1 .jcarousel-item{
-	width: 311px !important;
+	width: 303px !important;
 	height: 200px;
 	margin: 0px;
+	margin: 5px;
+	background-color: #817B7B;
 }
-
 .site-name-proyecto-paz .jcarousel-skin-default .jcarousel-clip-horizontal{
 	width: 100%;
 	margin: auto;
 }
-
-.jcarousel-skin-default .jcarousel-prev-horizontal{
-	left: -15px;
-	top: 80px;
+.jcarousel-skin-default .jcarousel-prev-horizontal {
+	background: transparent url("../../../../../sites/default/files/left_gallery.jpg") no-repeat top left;
+	height: 200px;
+	width: 43px;
+	left: 6px;
+	top: 5px;
+	opacity: 0.5;
 }
-.jcarousel-skin-default .jcarousel-next-horizontal{
-	right: -15px;
-	top: 80px;
+.jcarousel-skin-default .jcarousel-prev-horizontal:hover {
+  background-position: 0 0;
+  opacity: 1;
 }
-
-.views-field.views-field-field-img-slide-home{
+.jcarousel-skin-default .jcarousel-next-horizontal {
+	background: transparent url("../../../../../sites/default/files/right_gallery.jpg") no-repeat top left;
+	right: 2px;
+	top: 5px;
+	height: 200px;
+	width: 43px;
+	opacity: 0.5;
+}
+.jcarousel-skin-default .jcarousel-next-horizontal:hover {
+  background-position: 0 0;
+	opacity: 1;
+}
+.blog_slide_home .views-field-field-image {
 	float: left;
 }
-
-.site-name-proyecto-paz #block-views-blog-block-1 .views-field.views-field-title,
-.site-name-proyecto-paz #block-views-blog-block-1 .views-field.views-field-body{
-	display: inline-block;
-	width: 54%;
-	margin: 0 10px 0 10px;
-
+.blog_slide_home .views-field-field-image img {
+	margin-bottom: 50px;
 }
-
-.jcarousel-clip-horizontal h2.field-content{
-	font-size: 14px;
-	margin-bottom: 5px;
-
+.blog_slide_home .views-field-title a {
+	font-size: 15px;
+	margin: 5px;
+	text-decoration: none;
+}
+.blog_slide_home .views-field-title  {
+	float: right;
+	width: 172px;
+}
+.blog_slide_home .views-field-body  {
+	text-align: left;
+	float: right;
+	width: 172px;
+	width: 160px;
+	padding-right: 2px;
 }
 
 /*============================*/
@@ -2580,45 +2613,23 @@ background-color: #f5f5f5;
   color: #6C6C6C;
   font-weight: bold;
 }
-
+.section-blog #block-system-main table {
+	border: none;
+}
 .section-blog #block-system-main table.views-view-grid.cols-1{
 	margin: auto;
-    width: 70%;
+  width: 70%;
 }
-
 .section-blog #block-system-main tbody > tr{
 	background: #fff;
-}
-
-
-.section-blog #block-system-main table h2.field-content{
-	text-align: left;
-}
-
-
-/*
-.view-blog .view-content {
-	float: left;
-	width: 700px;
-	margin-top: -20px;
-}
-.view-blog .view-content tr {
-	background-color: #f5f5f5;
-	margin-top: 10px;
-	padding-top: 3px;
+	margin-bottom: 30px;
 	display: block;
 }
-.view-blog .view-content .row-last {
-	margin-bottom: 20px;
+.section-blog #block-system-main table h2.field-content{
+	margin: 20px;
 }
-.view-blog .views-field-title {
-	float: left;
-	margin-top: 10px;
-}
-.view-blog .views-field-body {
-	clear: left;
-}
-.view-blog .views-field-body span {
+#block-facebook-comments-block-fb-comments {
+	background-color: #FBBDC3;
 }
 
 /*internas*/
@@ -2648,10 +2659,6 @@ background-color: #f5f5f5;
 /*============================*/
 /*-------- RED MEDIADORES ----*/
 /*============================*/
-.section-red-de-mediadores h2 {
-	color: #FF7E41;
-  font-size: 19px;
-}
 #block-webform-client-block-539 {
 	background-color: #fff;
 	margin-top: -20px;
@@ -2714,22 +2721,38 @@ border: 1px solid #666666;z
 /*============================*/
 /*--------LANDING PAGES-------*/
 /*============================*/
-
-
-
-.site-name-proyecto-paz #block-views-herramientas-block-1 h2.block-title{
-    color: #e93578;
-    font-size: 2em;
-    text-align: left;
-    margin-bottom: 30px;
+.site-name-proyecto-paz #block-views-herramientas-block-1 {
+	margin-top: 40px;
 }
-
-
-.site-name-proyecto-paz #block-views-herramientas-block-1 .views-field.views-field-field-image{
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-field.views-field-field-image {
 	float: left;
 	margin: 0 30px 30px 0;
 }
-
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-field-name {
+	float: right;
+	width: 577px;
+	line-height: 1;
+	height: 30px;
+}
+.site-name-proyecto-paz #block-views-herramientas-block-1 .field-content > a{
+	color: #e93578;
+	font-size: 19px;
+	font-weight: bold;
+}
+.site-name-proyecto-paz #block-views-herramientas-block-1 h2.block-title {
+	color: #e93578;
+	font-size: 19px;
+	text-align: left;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #998c8c;
+}
+.site-name-proyecto-paz #block-views-herramientas-block-1 .views-field-description {
+	float: right;
+	width: 577px;
+	height: 220px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
 .site-name-proyecto-paz .views-row.views-row-2.views-row-even,
 .site-name-proyecto-paz #block-views-herramientas-block-1 .views-row.views-row-3.views-row-odd,
 .site-name-proyecto-paz #block-views-herramientas-block-1 .views-row.views-row-4.views-row-even,
@@ -2737,6 +2760,3 @@ border: 1px solid #666666;z
 	clear: both;
 }
 
-.site-name-proyecto-paz #block-views-herramientas-block-1 .field-content > a{
-	font-size: 30px;
-}
