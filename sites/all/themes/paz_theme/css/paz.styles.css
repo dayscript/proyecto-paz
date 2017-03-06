@@ -1736,7 +1736,7 @@ a.link_web:hover{
 /*--- invisibles ---*/
 
 #block-views-menu-proyectos-block{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 .block_menu_proyect{
 	text-align:center;
@@ -2501,7 +2501,6 @@ background-color: #f5f5f5;
 	margin: 0;
 	padding: 0;
 	width: 942px;
-	margin-top: 50px;
 }
 .site-name-proyecto-paz #block-views-blog-block-1 .view-content {
 	float: none;
