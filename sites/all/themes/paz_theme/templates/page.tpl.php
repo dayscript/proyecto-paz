@@ -215,9 +215,6 @@
 
     </div><!-- /end #columns -->
 
-    <!-- !Tertiary Content Region -->
-    <?php print render($page['tertiary_content']); ?>
-	<?php $buttom_content = render($page['buttom_content']); print $buttom_content; ?>
     <!-- !Footer -->
     <?php if ($page['footer'] || $attribution): ?>
       <footer<?php print $footer_attributes; ?>>

@@ -24,7 +24,41 @@
         		up = false;
         	}
         };
+        
+        //switch image block menu-proyectos
+        $('.block_menu_proyect .views-field a.blue').mouseover(function() {
+          $('.block_menu_proyect .views-field a.blue .first img').hide();
+          $('.block_menu_proyect .views-field a.blue .last img').show();
+        });
+        $('.block_menu_proyect .views-field a.blue').mouseout(function() {
+          $('.block_menu_proyect .views-field a.blue .first img').show();
+          $('.block_menu_proyect .views-field a.blue .last img').hide();
+        });
 
-            
+        $('.block_menu_proyect .views-field a.green').mouseover(function() {
+          $('.block_menu_proyect .views-field a.green .first img').hide();
+          $('.block_menu_proyect .views-field a.green .last img').show();
+        });
+        $('.block_menu_proyect .views-field a.green').mouseout(function() {
+          $('.block_menu_proyect .views-field a.green .first img').show();
+          $('.block_menu_proyect .views-field a.green .last img').hide();
+
+        });
+
+        $('.block_menu_proyect .views-field a.yellow').mouseover(function() {
+          $('.block_menu_proyect .views-field a.yellow .first img').hide();
+          $('.block_menu_proyect .views-field a.yellow .last img').show();
+        });
+        $('.block_menu_proyect .views-field a.yellow').mouseout(function() {
+          $('.block_menu_proyect .views-field a.yellow .first img').show();
+          $('.block_menu_proyect .views-field a.yellow .last img').hide();
+
+        });
+
+        //stop player iframe
+        //$('#block-views-podcast-block-1 iframe').css('background', 'red');
+       
+
     });// End ready
 })(jQuery, Drupal, this, this.document);
+
