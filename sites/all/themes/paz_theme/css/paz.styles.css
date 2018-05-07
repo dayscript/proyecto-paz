@@ -90,22 +90,22 @@ img.vegas-background{
 	display:none !important;
 }
 
-.site-name-la-paz-se-toma-la-palabra .page.blue{
+.site-name-banrepcultural .page.blue{
 	background:url('../images/blue.jpg') repeat;
 }
-.site-name-la-paz-se-toma-la-palabra .page.green{
+.site-name-banrepcultural .page.green{
 	background:url('../images/green.jpg') repeat;
 }
-.site-name-la-paz-se-toma-la-palabra .page.yellow{
+.site-name-banrepcultural .page.yellow{
 	background:url('../images/yellow.jpg') repeat;
 }
-.site-name-la-paz-se-toma-la-palabra .page.red{
+.site-name-banrepcultural .page.red{
 	background:url('../images/red.jpg') repeat;
 }
-.site-name-la-paz-se-toma-la-palabra .page.orange{
+.site-name-banrepcultural .page.orange{
 	background:url('../images/orange.jpg') repeat;
 }
-.site-name-la-paz-se-toma-la-palabra .page.default{
+.site-name-banrepcultural .page.default{
 	background:url('../images/background_1.jpg') repeat;
 }
 body.section-blog {
@@ -161,10 +161,10 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 /*============================*/
 
 
-.site-name-la-paz-se-toma-la-palabra #header-wrapper{
+.site-name-banrepcultural #header-wrapper{
 	background-color: #fff;
 }
-.site-name-la-paz-se-toma-la-palabra #header-wrapper .block-content.content > h1 {
+.site-name-banrepcultural #header-wrapper .block-content.content > h1 {
 	color: #ca495c;
 	background: none;
 	box-shadow: none;
@@ -176,17 +176,17 @@ body.section-colecciones-digitales H1 a{				color:#FFF;}
 	margin-right: auto;
 	box-shadow: 0px 6px 3px -3px #888888;
 }
-.site-name-la-paz-se-toma-la-palabra #header-wrapper .block-content.content > h2 {
+.site-name-banrepcultural #header-wrapper .block-content.content > h2 {
 	color: #000;
 	font-size: 15px;
 	display: block;
 	text-transform: lowercase;
 	margin-top: -25px;
 }
-.site-name-la-paz-se-toma-la-palabra #header-wrapper .block-content.content > h2::first-letter {
+.site-name-banrepcultural #header-wrapper .block-content.content > h2::first-letter {
 	text-transform: uppercase;
 }
-.site-name-la-paz-se-toma-la-palabra .region-inner.clearfix {
+.site-name-banrepcultural .region-inner.clearfix {
     margin: 0 auto;
     width: 940px;
 }
@@ -2695,20 +2695,20 @@ background-color: #f5f5f5;
 /*============================*/
 /*---------Slide Home---------*/
 /*============================*/
-.site-name-la-paz-se-toma-la-palabra #block-views-blog-block-1 {
+.site-name-banrepcultural #block-views-blog-block-1 {
 	height: 260px;
 }
-.site-name-la-paz-se-toma-la-palabra .jcarousel-skin-default .jcarousel-container-horizontal{
+.site-name-banrepcultural .jcarousel-skin-default .jcarousel-container-horizontal{
 	margin: 0 auto;
 	padding: 0;
 	width: 857px;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-blog-block-1 .view-content {
+.site-name-banrepcultural #block-views-blog-block-1 .view-content {
 	float: none;
 	width: inherit;
 	margin-top: inherit;
 }
-.site-name-la-paz-se-toma-la-palabra .jcarousel-view--blog--block-1 .jcarousel-item{
+.site-name-banrepcultural .jcarousel-view--blog--block-1 .jcarousel-item{
 	width: 275px !important;
 	height: 350px;
 	margin: 0px;
@@ -2718,7 +2718,7 @@ background-color: #f5f5f5;
 	-moz-box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
 	box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.3);
 }
-.site-name-la-paz-se-toma-la-palabra .jcarousel-skin-default .jcarousel-clip-horizontal{
+.site-name-banrepcultural .jcarousel-skin-default .jcarousel-clip-horizontal{
 	width: 100%;
 	margin: auto;
 }
@@ -2906,42 +2906,42 @@ background-color: #f5f5f5;
 /*============================*/
 /*--------LANDING PAGES-------*/
 /*============================*/
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 {
+.site-name-banrepcultural #block-views-herramientas-block-1 {
 	margin-top: 40px;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-field.views-field-field-image {
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-field.views-field-field-image {
 	float: left;
 	margin: 0 30px 30px 0;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-field-name {
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-field-name {
 	float: right;
 	width: 577px;
 	line-height: 1;
 	height: 30px;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .field-content > a{
+.site-name-banrepcultural #block-views-herramientas-block-1 .field-content > a{
 	color: #e93578;
 	font-size: 19px;
 	font-weight: bold;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 h2.block-title {
+.site-name-banrepcultural #block-views-herramientas-block-1 h2.block-title {
 	color: #e93578;
 	font-size: 19px;
 	text-align: left;
 	margin-bottom: 30px;
 	border-bottom: 2px solid #998c8c;
 }
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-field-description {
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-field-description {
 	float: right;
 	width: 577px;
 	height: 220px;
 	overflow: hidden;
 	margin-bottom: 40px;
 }
-.site-name-la-paz-se-toma-la-palabra .views-row.views-row-2.views-row-even,
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-row.views-row-3.views-row-odd,
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-row.views-row-4.views-row-even,
-.site-name-la-paz-se-toma-la-palabra #block-views-herramientas-block-1 .views-row.views-row-5.views-row-odd.views-row-last{
+.site-name-banrepcultural .views-row.views-row-2.views-row-even,
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-row.views-row-3.views-row-odd,
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-row.views-row-4.views-row-even,
+.site-name-banrepcultural #block-views-herramientas-block-1 .views-row.views-row-5.views-row-odd.views-row-last{
 	clear: both;
 }
 #block-views-tools-block-5,
